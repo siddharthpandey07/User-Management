@@ -34,6 +34,7 @@ const UserList = ({ users, onEdit, onDelete }) => {
               <td>
                 <button onClick={() => onEdit(user)}>Edit</button>
                 <button onClick={() => onDelete(user.id)}>Delete</button>
+                <button onClick={() => (console.log("HELLO"))}>View</button>
               </td>
             </tr>
           ))}
